@@ -1,0 +1,8 @@
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+# [font]
+# size = 10.0
