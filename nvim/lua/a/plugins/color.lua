@@ -23,7 +23,8 @@ return {
 							bg_gutter = "none"
 						},
 						diag = {
-							error = "#FF8080"
+							-- error = "#FF8080"
+							error = "#c4746e"
 						}
 					},
 				},
@@ -42,4 +43,3 @@ return {
 		vim.cmd("colorscheme kanagawa")
 	end
 }
-
