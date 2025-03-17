@@ -6,7 +6,7 @@ return {
 			undercurl = false,
 			commentStyle = { italic = true },
 			functionStyle = {},
-			keywordStyle = { italic = false},
+			keywordStyle = { italic = false },
 			statementStyle = { bold = true },
 			typeStyle = {},
 			transparent = false,
@@ -32,9 +32,9 @@ return {
 			overrides = function(colors) -- add/modify highlights
 				return {}
 			end,
-			theme = "wave",              -- Load "wave" theme when 'background' option is not set
-			background = {                 -- map the value of 'background' option to a theme
-				dark = "dragon",       -- try "dragon" !
+			theme = "wave", -- Load "wave" theme when 'background' option is not set
+			background = { -- map the value of 'background' option to a theme
+				dark = "dragon", -- try "dragon" !
 				light = "lotus"
 			},
 		})
