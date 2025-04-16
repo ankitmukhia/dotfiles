@@ -31,6 +31,14 @@ vim.opt.softtabstop = 2
 
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
+vim.api.nvim_set_keymap('t', '<Esc><Esc>', '<C-\\><C-n>', { noremap = true, silent = true }) -- esc terminal mode to normal mode
+
+vim.api.nvim_set_keymap('n', '<C-j>', '<C-w>j', { noremap = true, silent = true }) -- Move down in normal mode
+vim.api.nvim_set_keymap('n', '<C-k>', '<C-w>k', { noremap = true, silent = true }) -- Move up in normal mode
+
+vim.api.nvim_set_keymap('n', '<leader>j', ':resize -5<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>k', ':resize +5<CR>', { noremap = true, silent = true })
+
 -- Clear highlights pressing <Esc> after search
 vim.keymap.set("n", "<Esc>", '<cmd>nohlsearch<CR>')
 
